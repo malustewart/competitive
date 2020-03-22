@@ -3,7 +3,7 @@
 //
 
 // https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/00000000000698d6
-// pase solo el test case de la consigna, ninguno de los ocultos :((((
+// primero paso, el segundo time limit exceeded
 
 
 #include <iostream>
@@ -48,7 +48,7 @@ int main ()
             best = min(current, best);
 
         }
-        cout << "Case #" << run << ": " << best << endl;
+        cout << "Case #" << run + 1 << ": " << best << endl;
     }
 
 
